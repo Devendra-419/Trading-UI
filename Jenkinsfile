@@ -7,8 +7,8 @@ pipeline {
             steps {
                 // Get some code from a GitHub repository
                 https://github.com/Devendra-419/Trading-UI.git'
-                   }
-}
+                    }
+        }
         stage('Install npm prerequisites'){
             steps{
                 sh'npm audit fix'
